@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+input {
+    min-height: 20px;
+    padding: 2px 5px;
+    border: 1px solid #3e76df;
+    border-radius: 4px;
+    font-size: 14px;
+}

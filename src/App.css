@@ -4,18 +4,18 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
+  width: 10vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 10px;
 }
 
 .App-link {
@@ -29,4 +29,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app-content{
+  position: relative;
+  padding: 10px 0;
+  margin: 0;
+}
+.click-btn{
+  position: relative;
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #3e76df;
+  background-color: #ffffff;
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3e76df;
+  border-radius: 4px;
+}
+.img-part{
+  width: 100%;
+  height: 75vh;
+  background: url(https://pic8.58cdn.com.cn/nowater/fangfe/n_v2790441016a694609a9ceae077e6a46c5.jpg?w=50.4&h=67.2);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 200px;
+}
+.img-part img{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
